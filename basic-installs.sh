@@ -12,7 +12,6 @@ sudo docker version
 sudo usermod -aG docker $USER
 git config --global user.name ediaz
 git config --global user.email ediaz@teravisiontech.com
-git config --global --list
 yay -S nvm --noconfirm
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 exec $SHELL
