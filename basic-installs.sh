@@ -14,7 +14,10 @@ git config --global user.name ediaz
 git config --global user.email ediaz@teravisiontech.com
 yay -S nvm --noconfirm
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+echo 'source ~/.nvm/nvm.sh' >> ~/.zshrc
 exec $SHELL
 nvm version-remote --lts
 nvm install --lts
 nvm use --lts
+zsh
+source ~/.zshrc
